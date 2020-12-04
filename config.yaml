@@ -1,0 +1,9 @@
+datasets:
+# A small testing dataset is included in the repo.
+- name: test-dataset
+  path: tests/data/datasets/test-etopo1-resampled-1deg/
+# EU-DEM
+- name: eudem25m
+  path: data/eudem/
+  filename_epsg: 3035
+  filename_tile_size: 1000000

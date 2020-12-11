@@ -1,3 +1,4 @@
+max_locations_per_request: 1000
 datasets:
 # A small testing dataset is included in the repo.
 - name: test-dataset
@@ -7,3 +8,6 @@ datasets:
   path: data/eudem/
   filename_epsg: 3035
   filename_tile_size: 1000000
+# BKG-DGM200
+- name: bkg200m
+  path: data/bkg-dgm200/

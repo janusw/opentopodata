@@ -11,3 +11,8 @@ datasets:
 # BKG-DGM200
 - name: bkg200m
   path: data/bkg-dgm200/
+# BKG-DGM10
+- name: bkg10m
+  path: data/bkg-dgm10/
+  filename_epsg: 3044
+  filename_tile_size: 20000
